@@ -8,7 +8,8 @@ msg_to='2509048189@qq.com'
                             
 subject="python邮件测试"                                        
 content="这是我使用python smtplib及email模块发送的邮件"
-msg=MIMEText('填写邮件内容','plain','utf-8')
+#test
+msg=MIMEText('填写邮件内容','plain','utf-8')
 msg['Subject'] = subject
 msg['From'] = msg_from
 msg['To'] = msg_to
