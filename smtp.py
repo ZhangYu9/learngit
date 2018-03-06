@@ -10,6 +10,7 @@ subject="python邮件测试"
 content="这是我使用python smtplib及email模块发送的邮件"
 #test
 #test2
+#test3
 msg=MIMEText('填写邮件内容','plain','utf-8')
 msg['Subject'] = subject
 msg['From'] = msg_from
